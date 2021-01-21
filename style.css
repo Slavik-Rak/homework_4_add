@@ -1,0 +1,191 @@
+* {
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.wrap {
+    background: rgb(82, 82, 62);
+    max-width: 1000px;
+    margin: auto;
+}
+
+.container {
+    width: 80%;
+    background: yellow;
+    padding: 0 10px 20px 10px;
+    margin: auto;
+}
+
+.border {
+    border: 1px solid black;
+}
+
+.header {
+    background: red;
+    margin-top: 5px;
+}
+
+.wrap_log_main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+    width: 40%;
+    background: #00FFFF;
+    margin: 0 10px;
+}
+
+.header-main {
+    background: #FF00FF;
+    width: 60%;
+    margin-right: 10px;
+}
+
+.header-main-body {
+    height: 50px;
+}
+
+.title {
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.toolbar {
+    margin: 10px;
+    background: #C6C6C6;
+}
+
+.toolbar_body,
+.header-main-body {
+    background: #FFFFFF;
+    margin: 0 10px 10px 10px;
+}
+
+.flex_center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* body */
+
+.wrap_canvas {
+    display: flex;
+}
+
+.canvas {
+    margin-top: 10px;
+    padding: 0 10px 10px 10px;
+    background: #0000FF;
+}
+
+.nav {
+    background: #00FFFF;
+    width: 30%;
+}
+
+.nav_main {
+    margin: 0 10px 10px 10px;
+    background: #00FF00;
+}
+
+.nav_main_title {
+    margin: 0 10px 10px 10px;
+    padding: 5px;
+    background: #FFFFFF;
+}
+
+.nav_main_body {
+    margin: 0 10px 10px 10px;
+    padding: 10px;
+    background: #FFFFFF;
+}
+
+.nav_ads {
+    margin: 0 10px 10px 10px;
+    background: #3f15f8;
+}
+
+.nav_ads_title {
+    margin: 0 10px 10px 10px;
+    padding: 10px;
+    background: #FFFFFF;
+}
+
+.nav_ads_body {
+    margin: 0 10px 10px 10px;
+    padding: 10px;
+    background: #FFFFFF;
+}
+
+.content {
+    width: 40%;
+    margin: 0 10px;
+    background: #FF0000;
+}
+
+.breadcrumb,
+.content_info,
+.content_main {
+    margin: 0 10px 10px 10px;
+}
+
+.breadcrumb {
+    background: #FFFFFF;
+}
+
+.breadcrumb_selected {
+    margin: 0 15px 10px 15px;
+    background: #00FF00;
+}
+
+.content_info {
+    background: #00FF00;
+}
+
+.content_info_title,
+.content_info_body,
+.content_main_title,
+.content_main_body {
+    margin: 0 15px 10px 15px;
+    background: #FFFFFF;
+}
+
+.content_main {
+    background: yellow;
+}
+
+.sidebar {
+    background: #00FFFF;
+    width: 30%;
+}
+
+.sidebar_main {
+    background: #00FF00;
+    margin: 0 10px;
+    height: 80%;
+}
+
+.sidebar_main_title,
+.sidebar_main_body {
+    margin: 0 10px;
+    height: 25%;
+    margin-bottom: 20px;
+    background: #FFFFFF;
+}
+
+
+/* footer */
+
+.footer {
+    background: #FF0000;
+    margin-top: 15px
+}
+
+.footer_title,
+.footer_body {
+    margin: 0 15px 10px 15px;
+    background: #FFFFFF;
+}
